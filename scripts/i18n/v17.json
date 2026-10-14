@@ -1,0 +1,482 @@
+{
+ "settings.knowledge": {
+  "en": "Football knowledge",
+  "fr": "Savoir football",
+  "es": "Conocimiento futbolístico"
+ },
+ "settings.knowledge.minimal": {
+  "en": "Minimal",
+  "fr": "Minimal",
+  "es": "Mínimo"
+ },
+ "settings.knowledge.standard": {
+  "en": "Standard",
+  "fr": "Standard",
+  "es": "Estándar"
+ },
+ "settings.knowledge.deep": {
+  "en": "Deep",
+  "fr": "Complet",
+  "es": "A fondo"
+ },
+ "settings.knowledge.minimal.hint": {
+  "en": "Pure gameplay. Player details stay one tap away.",
+  "fr": "Le jeu, rien d'autre. Les fiches joueurs restent à un geste.",
+  "es": "Solo el juego. Las fichas de jugador siguen a un toque."
+ },
+ "settings.knowledge.standard.hint": {
+  "en": "A short tactical or historical line after some picks. Never pauses the draft.",
+  "fr": "Une courte info tactique ou historique après certains choix. Ne met jamais la draft en pause.",
+  "es": "Un apunte táctico o histórico breve tras algunas elecciones. Nunca detiene el draft."
+ },
+ "settings.knowledge.deep.hint": {
+  "en": "A line after every pick, tap it for the full profile.",
+  "fr": "Une info après chaque choix, touche-la pour la fiche complète.",
+  "es": "Un apunte tras cada elección; tócalo para ver la ficha completa."
+ },
+ "nation.ENG": {
+  "en": "England",
+  "fr": "Angleterre",
+  "es": "Inglaterra"
+ },
+ "nation.SCO": {
+  "en": "Scotland",
+  "fr": "Écosse",
+  "es": "Escocia"
+ },
+ "nation.WAL": {
+  "en": "Wales",
+  "fr": "pays de Galles",
+  "es": "Gales"
+ },
+ "nation.NIR": {
+  "en": "Northern Ireland",
+  "fr": "Irlande du Nord",
+  "es": "Irlanda del Norte"
+ },
+ "nation.URS": {
+  "en": "Soviet Union",
+  "fr": "URSS",
+  "es": "Unión Soviética"
+ },
+ "nation.YUG": {
+  "en": "Yugoslavia",
+  "fr": "Yougoslavie",
+  "es": "Yugoslavia"
+ },
+ "nation.SCG": {
+  "en": "Serbia and Montenegro",
+  "fr": "Serbie-et-Monténégro",
+  "es": "Serbia y Montenegro"
+ },
+ "nation.TCH": {
+  "en": "Czechoslovakia",
+  "fr": "Tchécoslovaquie",
+  "es": "Checoslovaquia"
+ },
+ "nation.CIS": {
+  "en": "CIS",
+  "fr": "CEI",
+  "es": "CEI"
+ },
+ "nation.GDR": {
+  "en": "East Germany",
+  "fr": "RDA",
+  "es": "RDA"
+ },
+ "know.whyN": {
+  "en": "Why {n}?",
+  "fr": "Pourquoi {n} ?",
+  "es": "¿Por qué {n}?"
+ },
+ "know.profile": {
+  "en": "Profile",
+  "fr": "Profil",
+  "es": "Perfil"
+ },
+ "know.elite": {
+  "en": "Elite",
+  "fr": "Élite",
+  "es": "Élite"
+ },
+ "know.strong": {
+  "en": "Strong",
+  "fr": "Fort",
+  "es": "Fuerte"
+ },
+ "know.limited": {
+  "en": "Limited",
+  "fr": "Limité",
+  "es": "Limitado"
+ },
+ "know.bestRole": {
+  "en": "Best role",
+  "fr": "Meilleur rôle",
+  "es": "Mejor rol"
+ },
+ "know.teamImpact": {
+  "en": "Team impact",
+  "fr": "Impact sur ton XI",
+  "es": "Impacto en tu XI"
+ },
+ "know.impactStarHurts": {
+  "en": "Player quality isn't team impact: a star can lower your FIT here.",
+  "fr": "La qualité d'un joueur n'est pas son impact : ici, une star peut faire baisser ton FIT.",
+  "es": "La calidad no es el impacto: aquí una estrella puede bajar tu FIT."
+ },
+ "know.impactHelps": {
+  "en": "He fits what your XI is missing.",
+  "fr": "Il apporte ce qui manque à ton XI.",
+  "es": "Aporta lo que le falta a tu XI."
+ },
+ "know.impactNeutral": {
+  "en": "He changes little in how your XI works together.",
+  "fr": "Il change peu la cohérence de ton XI.",
+  "es": "Cambia poco el funcionamiento de tu XI."
+ },
+ "know.history": {
+  "en": "History",
+  "fr": "Histoire",
+  "es": "Historia"
+ },
+ "know.versions": {
+  "en": "Other versions in ERA XI",
+  "fr": "Autres versions dans ERA XI",
+  "es": "Otras versiones en ERA XI"
+ },
+ "know.historyLine": {
+  "en": "Your drafts: met {seen}× · drafted {drafted}× · skipped {skipped}×",
+  "fr": "Tes drafts : croisé {seen} fois · choisi {drafted} · laissé {skipped}",
+  "es": "Tus drafts: visto {seen} veces · elegido {drafted} · descartado {skipped}"
+ },
+ "know.historyBest": {
+  "en": "best season with him {n}",
+  "fr": "meilleure saison avec lui : {n}",
+  "es": "mejor temporada con él: {n}"
+ },
+ "know.model": {
+  "en": "Rating model",
+  "fr": "Modèle de note",
+  "es": "Modelo de valoración"
+ },
+ "know.schoolTitle": {
+  "en": "Role School",
+  "fr": "École des rôles",
+  "es": "Escuela de roles"
+ },
+ "know.strengths": {
+  "en": "Strengths",
+  "fr": "Forces",
+  "es": "Virtudes"
+ },
+ "know.needs": {
+  "en": "Needs",
+  "fr": "Besoins",
+  "es": "Necesita"
+ },
+ "know.risk": {
+  "en": "Risk",
+  "fr": "Risque",
+  "es": "Riesgo"
+ },
+ "passport.short": {
+  "en": "Era Passport",
+  "fr": "Passeport",
+  "es": "Pasaporte"
+ },
+ "passport.nationalities": {
+  "en": "Nationalities met",
+  "fr": "Nationalités croisées",
+  "es": "Nacionalidades vistas"
+ },
+ "passport.met": {
+  "en": "Players you meet most",
+  "fr": "Les joueurs que tu croises le plus",
+  "es": "Los jugadores que más te salen"
+ },
+ "passport.metLine": {
+  "en": "met {seen} · drafted {drafted} · skipped {skipped}",
+  "fr": "croisé {seen} · choisi {drafted} · laissé {skipped}",
+  "es": "visto {seen} · elegido {drafted} · descartado {skipped}"
+ },
+ "passport.schoolSub": {
+  "en": "Roles explained",
+  "fr": "Les rôles expliqués",
+  "es": "Los roles, explicados"
+ },
+ "gallery.title": {
+  "en": "My XIs",
+  "fr": "Mes XI",
+  "es": "Mis XI"
+ },
+ "gallery.best": {
+  "en": "Best",
+  "fr": "Meilleurs",
+  "es": "Mejores"
+ },
+ "gallery.recent": {
+  "en": "Recent",
+  "fr": "Récents",
+  "es": "Recientes"
+ },
+ "gallery.favourites": {
+  "en": "Saved",
+  "fr": "Gardés",
+  "es": "Guardados"
+ },
+ "gallery.cat.season": {
+  "en": "Best season",
+  "fr": "Meilleure saison",
+  "es": "Mejor temporada"
+ },
+ "gallery.cat.iq": {
+  "en": "Best Football IQ XI",
+  "fr": "Meilleur XI Football IQ",
+  "es": "Mejor XI Football IQ"
+ },
+ "gallery.cat.fit": {
+  "en": "Best FIT",
+  "fr": "Meilleur FIT",
+  "es": "Mejor FIT"
+ },
+ "gallery.cat.attack": {
+  "en": "Best attack",
+  "fr": "Meilleure attaque",
+  "es": "Mejor ataque"
+ },
+ "gallery.cat.history": {
+  "en": "Best historical-mode XI",
+  "fr": "Meilleur XI en mode historique",
+  "es": "Mejor XI en modo histórico"
+ },
+ "gallery.bestEmpty": {
+  "en": "Play a few more seasons: bests appear once there is enough history to compare.",
+  "fr": "Joue encore quelques saisons : les meilleurs XI apparaissent quand il y a assez d'historique pour comparer.",
+  "es": "Juega unas cuantas temporadas más: los mejores XI aparecen cuando hay historial suficiente para comparar."
+ },
+ "gallery.empty": {
+  "en": "Your completed XIs will appear here.",
+  "fr": "Tes XI terminés apparaîtront ici.",
+  "es": "Aquí aparecerán tus XI terminados."
+ },
+ "gallery.favEmpty": {
+  "en": "Tap ☆ on a result or an XI to keep it here.",
+  "fr": "Touche ☆ sur un résultat ou un XI pour le garder ici.",
+  "es": "Toca ☆ en un resultado o un XI para guardarlo aquí."
+ },
+ "gallery.favourite": {
+  "en": "Keep this XI",
+  "fr": "Garder ce XI",
+  "es": "Guardar este XI"
+ },
+ "gallery.unfavourite": {
+  "en": "Remove from saved",
+  "fr": "Retirer des XI gardés",
+  "es": "Quitar de guardados"
+ },
+ "gallery.share": {
+  "en": "Share",
+  "fr": "Partager",
+  "es": "Compartir"
+ },
+ "gallery.copied": {
+  "en": "Link copied",
+  "fr": "Lien copié",
+  "es": "Enlace copiado"
+ },
+ "gallery.playDraw": {
+  "en": "Replay draw",
+  "fr": "Rejouer",
+  "es": "Rejugar"
+ },
+ "decide.title": {
+  "en": "Your draft",
+  "fr": "Ta draft",
+  "es": "Tu draft"
+ },
+ "decide.star": {
+  "en": "Star power",
+  "fr": "Goût des stars",
+  "es": "Apuesta por estrellas"
+ },
+ "decide.balance": {
+  "en": "Balance",
+  "fr": "Équilibre",
+  "es": "Equilibrio"
+ },
+ "decide.discipline": {
+  "en": "Positional discipline",
+  "fr": "Discipline de postes",
+  "es": "Disciplina posicional"
+ },
+ "decide.risk": {
+  "en": "Risk",
+  "fr": "Risque",
+  "es": "Riesgo"
+ },
+ "decide.level.high": {
+  "en": "High",
+  "fr": "Élevé",
+  "es": "Alto"
+ },
+ "decide.level.medium": {
+  "en": "Medium",
+  "fr": "Moyen",
+  "es": "Medio"
+ },
+ "decide.level.low": {
+  "en": "Low",
+  "fr": "Faible",
+  "es": "Bajo"
+ },
+ "decide.grade.excellent": {
+  "en": "Excellent",
+  "fr": "Excellent",
+  "es": "Excelente"
+ },
+ "decide.grade.strong": {
+  "en": "Strong",
+  "fr": "Solide",
+  "es": "Sólido"
+ },
+ "decide.grade.fair": {
+  "en": "Fair",
+  "fr": "Correct",
+  "es": "Correcto"
+ },
+ "decide.grade.weak": {
+  "en": "Weak",
+  "fr": "Faible",
+  "es": "Débil"
+ },
+ "decide.sacrifices": {
+  "en": "{n} times you passed on the highest rating for a better fit.",
+  "fr": "{n} fois, tu as laissé la meilleure note pour un meilleur FIT.",
+  "es": "{n} veces renunciaste a la mejor valoración por un mejor encaje."
+ },
+ "decide.costlyStars": {
+  "en": "You took the star {n} times even when it cost FIT or a position.",
+  "fr": "Tu as pris la star {n} fois, même quand ça coûtait du FIT ou un poste.",
+  "es": "Elegiste a la estrella {n} veces aunque costara FIT o una posición."
+ },
+ "decide.allStars": {
+  "en": "You took the highest-rated player in all {n} rounds.",
+  "fr": "Tu as pris le mieux noté aux {n} tours.",
+  "es": "Elegiste al mejor valorado en las {n} rondas."
+ },
+ "decide.clean": {
+  "en": "{n} picks, no risky move: a clean draft.",
+  "fr": "{n} choix, aucun risque pris : une draft propre.",
+  "es": "{n} elecciones sin ningún riesgo: un draft limpio."
+ },
+ "card.perfect": {
+  "en": "PERFECT ERA · 38 WINS",
+  "fr": "ÈRE PARFAITE · 38 VICTOIRES",
+  "es": "ERA PERFECTA · 38 VICTORIAS"
+ },
+ "result.perfect": {
+  "en": "Perfect era",
+  "fr": "Ère parfaite",
+  "es": "Era perfecta"
+ },
+ "result.perfectSub": {
+  "en": "38 wins. No draw, no defeat.",
+  "fr": "38 victoires. Aucun nul, aucune défaite.",
+  "es": "38 victorias. Ni un empate, ni una derrota."
+ },
+ "milestone.perfect": {
+  "en": "Perfect era",
+  "fr": "Ère parfaite",
+  "es": "Era perfecta"
+ },
+ "milestone.unbeatenSeason": {
+  "en": "Unbeaten season",
+  "fr": "Saison invaincue",
+  "es": "Temporada invicta"
+ },
+ "milestone.hundred": {
+  "en": "100 points",
+  "fr": "100 points",
+  "es": "100 puntos"
+ },
+ "milestone.perfectHalf": {
+  "en": "19 from 19",
+  "fr": "19 sur 19",
+  "es": "19 de 19"
+ },
+ "milestone.pbPace": {
+  "en": "Record pace",
+  "fr": "Rythme record",
+  "es": "Ritmo de récord"
+ },
+ "milestone.unbeaten10": {
+  "en": "10 matches unbeaten",
+  "fr": "10 matchs sans défaite",
+  "es": "10 partidos invicto"
+ },
+ "milestone.goals50": {
+  "en": "50 goals",
+  "fr": "50 buts",
+  "es": "50 goles"
+ },
+ "milestone.firstDefeat": {
+  "en": "First defeat after {n}",
+  "fr": "Première défaite après {n} matchs",
+  "es": "Primera derrota tras {n}"
+ },
+ "discover.era": {
+  "en": "New era discovered",
+  "fr": "Nouvelle époque découverte",
+  "es": "Nueva época descubierta"
+ },
+ "discover.nation": {
+  "en": "New nationality",
+  "fr": "Nouvelle nationalité",
+  "es": "Nueva nacionalidad"
+ },
+ "discover.added": {
+  "en": "added to your Era Passport",
+  "fr": "ajoutée à ton Passeport des époques",
+  "es": "añadida a tu Pasaporte de épocas"
+ },
+ "weekly.school": {
+  "en": "Role of the week:",
+  "fr": "Rôle de la semaine :",
+  "es": "Rol de la semana:"
+ },
+ "weekly.recommend": {
+  "en": "Also try:",
+  "fr": "À essayer aussi :",
+  "es": "Prueba también:"
+ },
+ "weekly.the1990s.name": {
+  "en": "The 1990s",
+  "fr": "Les années 90",
+  "es": "Los años 90"
+ },
+ "weekly.the1990s.desc": {
+  "en": "Every draw from the 1990s.",
+  "fr": "Tous les tirages viennent des années 90.",
+  "es": "Todos los sorteos, de los años 90."
+ },
+ "weekly.italy.name": {
+  "en": "Calcio",
+  "fr": "Calcio",
+  "es": "Calcio"
+ },
+ "weekly.italy.desc": {
+  "en": "Italian clubs and Italy sides only.",
+  "fr": "Uniquement des clubs italiens et des sélections italiennes.",
+  "es": "Solo clubes italianos y selecciones de Italia."
+ },
+ "weekly.no10.name": {
+  "en": "The No. 10",
+  "fr": "Le numéro 10",
+  "es": "El número 10"
+ },
+ "weekly.no10.desc": {
+  "en": "A classic draft, with the playmaker in the spotlight: who makes your XI tick?",
+  "fr": "Une draft classique, le meneur de jeu à l'honneur : qui fait jouer ton XI ?",
+  "es": "Un draft clásico con el enganche como protagonista: ¿quién hace jugar a tu XI?"
+ }
+}

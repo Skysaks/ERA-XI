@@ -1,0 +1,422 @@
+{
+ "help.title": {
+  "en": "Help",
+  "fr": "Aide",
+  "es": "Ayuda"
+ },
+ "help.aria": {
+  "en": "Help",
+  "fr": "Aide",
+  "es": "Ayuda"
+ },
+ "home.howto": {
+  "en": "How to play",
+  "fr": "Comment jouer",
+  "es": "Cómo se juega"
+ },
+ "weekly.acmilan.name": {
+  "en": "AC Milan",
+  "fr": "AC Milan",
+  "es": "AC Milan"
+ },
+ "weekly.acmilan.desc": {
+  "en": "A classic draw with two guaranteed AC Milan eras.",
+  "fr": "Un tirage classique avec deux époques de l'AC Milan garanties.",
+  "es": "Un sorteo clásico con dos épocas del AC Milan garantizadas."
+ },
+ "weekly.brazil.name": {
+  "en": "Brazil",
+  "fr": "Brésil",
+  "es": "Brasil"
+ },
+ "weekly.brazil.desc": {
+  "en": "A classic draw with four guaranteed Brazilian rounds: clubs or the Seleção.",
+  "fr": "Un tirage classique avec quatre tours brésiliens garantis : clubs ou Seleção.",
+  "es": "Un sorteo clásico con cuatro rondas brasileñas garantizadas: clubes o la Seleção."
+ },
+ "home.title": {
+  "en": "Build an impossible XI.",
+  "fr": "Compose un XI impossible.",
+  "es": "Arma un XI imposible."
+ },
+ "home.intro": {
+  "en": "Each draw gives you four players from a club and era. Pick one, build the most coherent XI you can, then simulate a 38-match season and chase 114 points.",
+  "fr": "Chaque tirage te propose quatre joueurs d'un club à une époque. Choisis-en un, compose le XI le plus cohérent possible, simule une saison de 38 matchs et vise les 114 points.",
+  "es": "Cada sorteo te ofrece cuatro jugadores de un club en una época. Elige uno, arma el XI más coherente posible, simula una temporada de 38 partidos y persigue los 114 puntos."
+ },
+ "home.sum.picks": {
+  "en": "11 picks",
+  "fr": "11 choix",
+  "es": "11 elecciones"
+ },
+ "home.sum.matches": {
+  "en": "38 matches",
+  "fr": "38 matchs",
+  "es": "38 partidos"
+ },
+ "home.sum.max": {
+  "en": "114 pts max",
+  "fr": "114 pts max",
+  "es": "114 pts máx."
+ },
+ "home.summaryAria": {
+  "en": "11 picks, 38 matches, 114 points maximum",
+  "fr": "11 choix, 38 matchs, 114 points maximum",
+  "es": "11 elecciones, 38 partidos, 114 puntos como máximo"
+ },
+ "home.cta.resume": {
+  "en": "Resume · {n}/11",
+  "fr": "Reprendre · {n}/11",
+  "es": "Continuar · {n}/11"
+ },
+ "home.cta.rematch": {
+  "en": "Rematch",
+  "fr": "Revanche",
+  "es": "Revancha"
+ },
+ "home.cta.rematchSub": {
+  "en": "{name} beat you {a}–{b}",
+  "fr": "{name} t'a battu {a}–{b}",
+  "es": "{name} te ganó {a}–{b}"
+ },
+ "home.cta.daily": {
+  "en": "Today's XI",
+  "fr": "L'XI du jour",
+  "es": "El XI de hoy"
+ },
+ "home.cta.dailySub": {
+  "en": "Same draw for everyone · {theme}",
+  "fr": "Même tirage pour tous · {theme}",
+  "es": "Mismo sorteo para todos · {theme}"
+ },
+ "home.cta.beat": {
+  "en": "Beat your {n}",
+  "fr": "Bats ton {n}",
+  "es": "Supera tu {n}"
+ },
+ "home.cta.beatSub": {
+  "en": "{gap} pts short last time",
+  "fr": "Il t'a manqué {gap} pts la dernière fois",
+  "es": "Te faltaron {gap} pts la última vez"
+ },
+ "home.orPlay": {
+  "en": "Or a new draft:",
+  "fr": "Ou un nouveau draft :",
+  "es": "O un draft nuevo:"
+ },
+ "resume.discardShort": {
+  "en": "Discard",
+  "fr": "Abandonner",
+  "es": "Descartar"
+ },
+ "myera.title": {
+  "en": "My Era",
+  "fr": "Mon Era",
+  "es": "Mi Era"
+ },
+ "myera.you": {
+  "en": "You",
+  "fr": "Toi",
+  "es": "Tú"
+ },
+ "myera.career": {
+  "en": "Career",
+  "fr": "Carrière",
+  "es": "Trayectoria"
+ },
+ "myera.games": {
+  "en": "Games",
+  "fr": "Parties",
+  "es": "Partidas"
+ },
+ "myera.best": {
+  "en": "Best",
+  "fr": "Record",
+  "es": "Récord"
+ },
+ "myera.avg": {
+  "en": "Average",
+  "fr": "Moyenne",
+  "es": "Media"
+ },
+ "myera.duels": {
+  "en": "Duels",
+  "fr": "Duels",
+  "es": "Duelos"
+ },
+ "myera.players": {
+  "en": "Players",
+  "fr": "Joueurs",
+  "es": "Jugadores"
+ },
+ "myera.activity": {
+  "en": "Activity",
+  "fr": "Activité",
+  "es": "Actividad"
+ },
+ "myera.rivals": {
+  "en": "Rivals",
+  "fr": "Rivaux",
+  "es": "Rivales"
+ },
+ "myera.rematch": {
+  "en": "Rematch",
+  "fr": "Revanche",
+  "es": "Revancha"
+ },
+ "myera.rivalLine": {
+  "en": "Average {avg} vs {theirAvg} · best {best} vs {theirBest} · {n} games",
+  "fr": "Moyenne {avg} contre {theirAvg} · record {best} contre {theirBest} · {n} matchs",
+  "es": "Media {avg} contra {theirAvg} · récord {best} contra {theirBest} · {n} partidos"
+ },
+ "myera.draws_one": {
+  "en": "{n} draw",
+  "fr": "{n} nul",
+  "es": "{n} empate"
+ },
+ "myera.draws_other": {
+  "en": "{n} draws",
+  "fr": "{n} nuls",
+  "es": "{n} empates"
+ },
+ "myera.bestXI": {
+  "en": "Best XI",
+  "fr": "Meilleurs XI",
+  "es": "Mejores XI"
+ },
+ "myera.saved_one": {
+  "en": "{n} XI saved",
+  "fr": "{n} XI sauvegardé",
+  "es": "{n} XI guardado"
+ },
+ "myera.saved_other": {
+  "en": "{n} XIs saved",
+  "fr": "{n} XI sauvegardés",
+  "es": "{n} XI guardados"
+ },
+ "myera.eras_one": {
+  "en": "{n} era discovered",
+  "fr": "{n} époque découverte",
+  "es": "{n} época descubierta"
+ },
+ "myera.eras_other": {
+  "en": "{n} eras discovered",
+  "fr": "{n} époques découvertes",
+  "es": "{n} épocas descubiertas"
+ },
+ "myera.recordsSub": {
+  "en": "Every number, by mode",
+  "fr": "Tous les chiffres, par mode",
+  "es": "Todas las cifras, por modo"
+ },
+ "myera.dnaReady": {
+  "en": "Your profile is ready",
+  "fr": "Ton profil est prêt",
+  "es": "Tu perfil está listo"
+ },
+ "feed.pb": {
+  "en": "New personal best: {n}",
+  "fr": "Nouveau record : {n}",
+  "es": "Nuevo récord: {n}"
+ },
+ "feed.vsWin": {
+  "en": "You beat {name}'s challenge {a}–{b}",
+  "fr": "Tu as battu le défi de {name} {a}–{b}",
+  "es": "Superaste el reto de {name} {a}–{b}"
+ },
+ "feed.vsLoss": {
+  "en": "{name}'s challenge beat you {a}–{b}",
+  "fr": "Le défi de {name} t'a battu {a}–{b}",
+  "es": "El reto de {name} te ganó {a}–{b}"
+ },
+ "feed.vsDraw": {
+  "en": "Level with {name}'s challenge, {a}–{b}",
+  "fr": "Égalité sur le défi de {name}, {a}–{b}",
+  "es": "Empate en el reto de {name}, {a}–{b}"
+ },
+ "feed.duelWin": {
+  "en": "You won a duel against {name}, {a}–{b}",
+  "fr": "Duel gagné contre {name}, {a}–{b}",
+  "es": "Duelo ganado contra {name}, {a}–{b}"
+ },
+ "feed.duelLoss": {
+  "en": "{name} won your duel, {a}–{b}",
+  "fr": "{name} a gagné votre duel, {a}–{b}",
+  "es": "{name} ganó vuestro duelo, {a}–{b}"
+ },
+ "feed.era": {
+  "en": "New era discovered: {era}",
+  "fr": "Nouvelle époque découverte : {era}",
+  "es": "Nueva época descubierta: {era}"
+ },
+ "feed.nation": {
+  "en": "New nationality met: {nation}",
+  "fr": "Nouvelle nationalité rencontrée : {nation}",
+  "es": "Nueva nacionalidad: {nation}"
+ },
+ "feed.ach": {
+  "en": "Achievement: {name}",
+  "fr": "Succès : {name}",
+  "es": "Logro: {name}"
+ },
+ "feed.daily": {
+  "en": "Today's Daily XI is available",
+  "fr": "L'XI du jour est disponible",
+  "es": "El XI del día está disponible"
+ },
+ "passport.erasTitle": {
+  "en": "Eras discovered",
+  "fr": "Époques découvertes",
+  "es": "Épocas descubiertas"
+ },
+ "passport.discoveredPct": {
+  "en": "Discovered {n}%",
+  "fr": "Découverte à {n} %",
+  "es": "Descubierta al {n} %"
+ },
+ "passport.allEras": {
+  "en": "All {n} eras",
+  "fr": "Les {n} époques",
+  "es": "Las {n} épocas"
+ },
+ "passport.fewerEras": {
+  "en": "Fewer",
+  "fr": "Moins",
+  "es": "Menos"
+ },
+ "know.bestPositions": {
+  "en": "Best positions:",
+  "fr": "Meilleurs postes :",
+  "es": "Mejores puestos:"
+ },
+ "know.modelNote": {
+  "en": "ERA XI model evaluation for this PlayerEra — a reasoned estimate, not historical truth.",
+  "fr": "Évaluation du modèle ERA XI pour cette PlayerEra : une estimation argumentée, pas une vérité historique.",
+  "es": "Evaluación del modelo ERA XI para esta PlayerEra: una estimación razonada, no una verdad histórica."
+ },
+ "know.historyPos": {
+  "en": "usually at {pos}",
+  "fr": "le plus souvent en {pos}",
+  "es": "sobre todo de {pos}"
+ },
+ "result.tryAgain": {
+  "en": "Try again",
+  "fr": "Retente",
+  "es": "Reintenta"
+ },
+ "result.nearMiss_one": {
+  "en": "{n} pt from your record",
+  "fr": "À {n} pt de ton record",
+  "es": "A {n} pt de tu récord"
+ },
+ "result.nearMiss_other": {
+  "en": "{n} pts from your record",
+  "fr": "À {n} pts de ton record",
+  "es": "A {n} pts de tu récord"
+ },
+ "result.sameSeed": {
+  "en": "Same draw, new picks",
+  "fr": "Même tirage",
+  "es": "Mismo sorteo"
+ },
+ "result.newSeed": {
+  "en": "New draft",
+  "fr": "Nouveau draft",
+  "es": "Nuevo draft"
+ },
+ "result.replayGain": {
+  "en": "≈ +{pts} pts (estimate)",
+  "fr": "≈ +{pts} pts (estimation)",
+  "es": "≈ +{pts} pts (estimación)"
+ },
+ "result.analyseSub": {
+  "en": "Why · key picks",
+  "fr": "Pourquoi · choix clés",
+  "es": "Por qué · elecciones clave"
+ },
+ "resume.title": {
+  "en": "Resume draft",
+  "fr": "Reprendre le draft",
+  "es": "Continuar draft"
+ },
+ "resume.discard": {
+  "en": "Discard saved draft",
+  "fr": "Abandonner le draft sauvegardé",
+  "es": "Descartar draft guardado"
+ },
+ "settings.knowledge.standard.hint": {
+  "en": "A short tactical or historical line after some picks. Never pauses the draft.",
+  "fr": "Une courte info tactique ou historique après certains choix. Ne met jamais le draft en pause.",
+  "es": "Un apunte táctico o histórico breve tras algunas elecciones. Nunca detiene el draft."
+ },
+ "decide.title": {
+  "en": "Your draft",
+  "fr": "Ton draft",
+  "es": "Tu draft"
+ },
+ "decide.clean": {
+  "en": "{n} picks, no risky move: a clean draft.",
+  "fr": "{n} choix, aucun risque pris : un draft propre.",
+  "es": "{n} elecciones sin ningún riesgo: un draft limpio."
+ },
+ "weekly.no10.desc": {
+  "en": "A classic draft, with the playmaker in the spotlight: who makes your XI tick?",
+  "fr": "Un draft classique, le meneur de jeu à l'honneur : qui fait jouer ton XI ?",
+  "es": "Un draft clásico con el enganche como protagonista: ¿quién hace jugar a tu XI?"
+ },
+ "analysis.keyPick": {
+  "en": "The pick that mattered",
+  "fr": "Le choix qui a compté",
+  "es": "La elección que marcó"
+ },
+ "analysis.moreTurning_one": {
+  "en": "{n} more turning point",
+  "fr": "{n} autre tournant",
+  "es": "{n} momento clave más"
+ },
+ "analysis.moreTurning_other": {
+  "en": "{n} more turning points",
+  "fr": "{n} autres tournants",
+  "es": "{n} momentos clave más"
+ },
+ "analysis.fewerTurning": {
+  "en": "Fewer",
+  "fr": "Moins",
+  "es": "Menos"
+ },
+ "help.fitLink": {
+  "en": "Understanding FIT",
+  "fr": "Comprendre le FIT",
+  "es": "Entender el FIT"
+ },
+ "help.formationsLink": {
+  "en": "How formations work",
+  "fr": "Comment marchent les systèmes",
+  "es": "Cómo funcionan los sistemas"
+ },
+ "help.ratingsLink": {
+  "en": "How ERA XI ratings work",
+  "fr": "Comment marchent les notes ERA XI",
+  "es": "Cómo funcionan las valoraciones de ERA XI"
+ },
+ "xi.title": {
+  "en": "Team sheet",
+  "fr": "Ta compo",
+  "es": "Tu alineación"
+ },
+ "sim.title": {
+  "en": "Era League · live",
+  "fr": "Era League · en direct",
+  "es": "Era League · en directo"
+ },
+ "result.formGuide": {
+  "en": "The season match by match: wins, draws, defeats",
+  "fr": "La saison match par match : victoires, nuls, défaites",
+  "es": "La temporada partido a partido: victorias, empates, derrotas"
+ },
+ "help.modesLink": {
+  "en": "Which mode to play",
+  "fr": "Quel mode choisir",
+  "es": "Qué modo elegir"
+ }
+}

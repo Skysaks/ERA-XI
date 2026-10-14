@@ -1,0 +1,4 @@
+{
+ "fact.euro.semi": {"en": "Semi-finalists at Euro {year}", "fr": "Demi-finalistes de l'Euro {year}", "es": "Semifinalistas de la Eurocopa {year}"},
+ "fact.olympics.winner": {"en": "Olympic champions in {year}", "fr": "Champions olympiques en {year}", "es": "Campeones olímpicos en {year}"}
+}

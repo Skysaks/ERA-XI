@@ -1,0 +1,51 @@
+{
+  "name": "era-xi",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ERA XI — a one-minute football drafting game: 11 club + era draws, one XI, a 38-game season.",
+  "author": "Florian Iglesias",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skysaks/ERA-XI"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "lint": "eslint . --max-warnings=0",
+    "validate:data": "node scripts/run-ts.mjs scripts/validate-data.ts && node scripts/run-ts.mjs scripts/data-audit.ts",
+    "audit:diversity": "node scripts/run-ts.mjs scripts/diversity-audit.ts 10000",
+    "qa:duel": "node scripts/playtest-v20-duel.mjs"
+  },
+  "dependencies": {
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.12.0",
+    "playwright-core": "^1.63.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.70.1",
+    "vitest": "^5.0.1"
+  }
+}

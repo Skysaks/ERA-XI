@@ -1,0 +1,48 @@
+ERA XI
+Copyright (c) 2026 Florian Iglesias. All rights reserved.
+
+This repository, including its source code, game design, rules, rating model,
+dataset, text, graphics and documentation (together, the "Work"), is the
+exclusive property of Florian Iglesias and is protected by copyright law
+(French Code de la propriété intellectuelle and international treaties).
+
+The Work is published publicly for portfolio and reference purposes only.
+No licence or right is granted, expressly or by implication, to any person
+other than the copyright holder. In particular, without the prior written
+permission of the copyright holder, you may not:
+
+  - copy, reproduce or mirror the Work, in whole or in part, outside the
+    viewing and forking features that GitHub's Terms of Service require for
+    public repositories;
+  - modify, adapt, translate or create derivative works from the Work;
+  - distribute, publish, sublicense, sell, rent or otherwise make the Work
+    available to third parties;
+  - deploy, host or operate the Work, or any derivative of it, as a service,
+    application or game, whether commercial or not;
+  - extract or reuse the dataset or rating model, including to train or
+    evaluate machine-learning models.
+
+Viewing the source on GitHub does not grant any of the rights above.
+
+Club, competition, federation and player names appear as descriptive
+historical references and remain the property of their respective owners.
+ERA XI is not affiliated with or endorsed by any of them.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY ARISING FROM THE WORK OR ITS USE.
+
+Permission requests: open an issue on https://github.com/Skysaks/ERA-XI or
+contact the copyright holder through his GitHub profile.
+
+--------------------------------------------------------------------------------
+
+Copyright (c) 2026 Florian Iglesias. Tous droits réservés.
+
+Ce dépôt (code source, conception du jeu, règles, modèle de notation, données,
+textes, visuels et documentation) est la propriété exclusive de Florian
+Iglesias. Il est rendu public à titre de portfolio uniquement. Aucune licence
+n'est concédée : toute reproduction, modification, distribution, exploitation
+ou réutilisation, totale ou partielle, commerciale ou non, est interdite sans
+autorisation écrite préalable de l'auteur (articles L.122-4 et L.335-2 du Code
+de la propriété intellectuelle).
