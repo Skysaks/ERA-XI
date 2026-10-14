@@ -1,0 +1,52 @@
+{
+ "room.expired": {
+  "en": "This room has expired: rooms close after a few hours without activity.",
+  "fr": "Cette salle a expiré : les salles se ferment après quelques heures sans activité.",
+  "es": "Esta sala ha caducado: las salas se cierran tras unas horas sin actividad."
+ },
+ "room.update": {
+  "en": "This room runs a newer version of ERA XI. Reload to update, then rejoin with the same link.",
+  "fr": "Cette salle utilise une version plus récente d'ERA XI. Recharge pour mettre à jour, puis rejoins avec le même lien.",
+  "es": "Esta sala usa una versión más reciente de ERA XI. Recarga para actualizar y vuelve a entrar con el mismo enlace."
+ },
+ "room.reload": {
+  "en": "Reload",
+  "fr": "Recharger",
+  "es": "Recargar"
+ },
+ "room.practiceDraw": {
+  "en": "This draw, solo",
+  "fr": "Tirage en solo",
+  "es": "Sorteo en solo"
+ },
+ "room.lockedWaiting": {
+  "en": "Locked · {name} picking…",
+  "fr": "Validé · {name} choisit…",
+  "es": "Confirmado · {name} elige…"
+ },
+ "brand.buildEra": {
+  "en": "Build your era",
+  "fr": "Construis ton ère",
+  "es": "Construye tu era"
+ },
+ "xi.complete": {
+  "en": "Team sheet complete",
+  "fr": "Feuille de match complète",
+  "es": "Alineación completa"
+ },
+ "sim.kickoff": {
+  "en": "Season kick-off",
+  "fr": "Coup d'envoi de la saison",
+  "es": "Arranca la temporada"
+ },
+ "sim.fullTime": {
+  "en": "Full time",
+  "fr": "Coup de sifflet final",
+  "es": "Final"
+ },
+ "room.finishSolo": {
+  "en": "Finish solo",
+  "fr": "Finir en solo",
+  "es": "Terminar solo"
+ }
+}

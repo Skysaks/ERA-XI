@@ -1,0 +1,142 @@
+{
+ "ctx.h.world-cup": {
+  "en": "World Cup {years}",
+  "fr": "Coupe du monde {years}",
+  "es": "Mundial {years}"
+ },
+ "ctx.h.euro": {
+  "en": "Euro {years}",
+  "fr": "Euro {years}",
+  "es": "Eurocopa {years}"
+ },
+ "ctx.h.copa-america": {
+  "en": "Copa América {years}",
+  "fr": "Copa América {years}",
+  "es": "Copa América {years}"
+ },
+ "ctx.h.afcon": {
+  "en": "Africa Cup of Nations {years}",
+  "fr": "CAN {years}",
+  "es": "Copa Africana {years}"
+ },
+ "ctx.h.asian-cup": {
+  "en": "Asian Cup {years}",
+  "fr": "Coupe d'Asie {years}",
+  "es": "Copa Asiática {years}"
+ },
+ "ctx.h.gold-cup": {
+  "en": "Gold Cup {years}",
+  "fr": "Gold Cup {years}",
+  "es": "Copa Oro {years}"
+ },
+ "ctx.h.olympics": {
+  "en": "Olympic gold {years}",
+  "fr": "Or olympique {years}",
+  "es": "Oro olímpico {years}"
+ },
+ "ctx.h.ucl": {
+  "en": "European Cup {years}",
+  "fr": "C1 {years}",
+  "es": "Copa de Europa {years}"
+ },
+ "ctx.h.libertadores": {
+  "en": "Copa Libertadores {years}",
+  "fr": "Copa Libertadores {years}",
+  "es": "Copa Libertadores {years}"
+ },
+ "ctx.h.caf-cl": {
+  "en": "CAF Champions League {years}",
+  "fr": "Ligue des champions CAF {years}",
+  "es": "Liga de Campeones CAF {years}"
+ },
+ "ctx.h.afc-cl": {
+  "en": "AFC Champions League {years}",
+  "fr": "Ligue des champions AFC {years}",
+  "es": "Liga de Campeones AFC {years}"
+ },
+ "ctx.h.concacaf-cl": {
+  "en": "CONCACAF Champions' Cup {years}",
+  "fr": "Coupe des champions CONCACAF {years}",
+  "es": "Copa de Campeones CONCACAF {years}"
+ },
+ "ctx.h.intercontinental": {
+  "en": "World club title {years}",
+  "fr": "Titre mondial des clubs {years}",
+  "es": "Título mundial de clubes {years}"
+ },
+ "ctx.h.league": {
+  "en": "League champions {years}",
+  "fr": "Champion {years}",
+  "es": "Campeón de liga {years}"
+ },
+ "ctx.h.uefa-cup": {
+  "en": "UEFA Cup {years}",
+  "fr": "Coupe de l'UEFA {years}",
+  "es": "Copa de la UEFA {years}"
+ },
+ "ctx.h.cwc": {
+  "en": "Cup Winners' Cup {years}",
+  "fr": "C2 {years}",
+  "es": "Recopa {years}"
+ },
+ "ctx.h.cup": {
+  "en": "Domestic cup {years}",
+  "fr": "Coupe nationale {years}",
+  "es": "Copa nacional {years}"
+ },
+ "ctx.coach": {
+  "en": "Coach: {name}",
+  "fr": "Entraîneur : {name}",
+  "es": "Entrenador: {name}"
+ },
+ "ctx.coaches": {
+  "en": "Coaches: {name}",
+  "fr": "Entraîneurs : {name}",
+  "es": "Entrenadores: {name}"
+ },
+ "ctx.style.pressing": {
+  "en": "Style: high pressing",
+  "fr": "Style : pressing haut",
+  "es": "Estilo: presión alta"
+ },
+ "ctx.style.possession": {
+  "en": "Style: positional possession",
+  "fr": "Style : possession positionnelle",
+  "es": "Estilo: posesión posicional"
+ },
+ "ctx.style.total-football": {
+  "en": "Style: Total Football",
+  "fr": "Style : football total",
+  "es": "Estilo: fútbol total"
+ },
+ "ctx.style.catenaccio": {
+  "en": "Style: catenaccio",
+  "fr": "Style : catenaccio",
+  "es": "Estilo: catenaccio"
+ },
+ "ctx.style.counter": {
+  "en": "Style: counter-attack",
+  "fr": "Style : contre-attaque",
+  "es": "Estilo: contraataque"
+ },
+ "ctx.style.direct": {
+  "en": "Style: direct football",
+  "fr": "Style : jeu direct",
+  "es": "Estilo: juego directo"
+ },
+ "ctx.style.wing-play": {
+  "en": "Style: wing play",
+  "fr": "Style : jeu sur les ailes",
+  "es": "Estilo: juego por bandas"
+ },
+ "ctx.style.flair": {
+  "en": "Style: flair and improvisation",
+  "fr": "Style : génie et improvisation",
+  "es": "Estilo: talento e improvisación"
+ },
+ "ctx.style.defensive": {
+  "en": "Style: defence first",
+  "fr": "Style : la défense d'abord",
+  "es": "Estilo: primero la defensa"
+ }
+}

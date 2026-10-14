@@ -1,0 +1,642 @@
+{
+ "tac.unit.def": {
+  "en": "Defence complete",
+  "fr": "Défense au complet",
+  "es": "Defensa completa"
+ },
+ "tac.unit.mid": {
+  "en": "Midfield set",
+  "fr": "Milieu en place",
+  "es": "Medio campo listo"
+ },
+ "tac.unit.front1": {
+  "en": "Attack set",
+  "fr": "Attaque en place",
+  "es": "Ataque listo"
+ },
+ "tac.unit.front2": {
+  "en": "Strike pair set",
+  "fr": "Duo d'attaque en place",
+  "es": "Dupla de ataque lista"
+ },
+ "tac.unit.front3": {
+  "en": "Front three complete",
+  "fr": "Trio offensif complet",
+  "es": "Tridente completo"
+ },
+ "tac.unit.front4": {
+  "en": "Front four complete",
+  "fr": "Quatuor offensif complet",
+  "es": "Cuarteto ofensivo completo"
+ },
+ "tac.m.noBallWinner": {
+  "en": "No ball winner",
+  "fr": "Aucun récupérateur",
+  "es": "Sin recuperador"
+ },
+ "tac.m.midBalanced": {
+  "en": "Midfield balanced",
+  "fr": "Milieu équilibré",
+  "es": "Medio campo equilibrado"
+ },
+ "tac.m.widthRestored": {
+  "en": "Width restored",
+  "fr": "Largeur retrouvée",
+  "es": "Amplitud recuperada"
+ },
+ "tac.m.coverageUp": {
+  "en": "Defensive coverage improved",
+  "fr": "Couverture défensive renforcée",
+  "es": "Cobertura defensiva reforzada"
+ },
+ "tac.m.ballWinningUp": {
+  "en": "Ball winning restored",
+  "fr": "Récupération retrouvée",
+  "es": "Recuperación reforzada"
+ },
+ "tac.c.controlCore": {
+  "en": "Control core",
+  "fr": "Cœur du jeu",
+  "es": "Eje de control"
+ },
+ "tac.c.balancedMidfield": {
+  "en": "Balanced midfield",
+  "fr": "Milieu équilibré",
+  "es": "Medio campo equilibrado"
+ },
+ "tac.c.overloadLeft": {
+  "en": "Left-side overload",
+  "fr": "Surnombre à gauche",
+  "es": "Superioridad por la izquierda"
+ },
+ "tac.c.overloadRight": {
+  "en": "Right-side overload",
+  "fr": "Surnombre à droite",
+  "es": "Superioridad por la derecha"
+ },
+ "tac.c.aerialSupply": {
+  "en": "Crosses for the target man",
+  "fr": "Centres pour le point d'appui",
+  "es": "Centros para el nueve de área"
+ },
+ "tac.c.elitePair": {
+  "en": "Elite defensive pair",
+  "fr": "Charnière d'élite",
+  "es": "Pareja de centrales de élite"
+ },
+ "tac.c.buildUpLink": {
+  "en": "Build-up link",
+  "fr": "Relance à deux",
+  "es": "Salida en pareja"
+ },
+ "tac.c.falseNineRunners": {
+  "en": "False nine & runners",
+  "fr": "Faux neuf et appels",
+  "es": "Falso nueve y desmarques"
+ },
+ "tac.c.strikePartnership": {
+  "en": "Strike partnership",
+  "fr": "Duo d'attaque complémentaire",
+  "es": "Dupla complementaria"
+ },
+ "tac.id.possession": {
+  "en": "Possession & progression",
+  "fr": "Possession et progression",
+  "es": "Posesión y progresión"
+ },
+ "tac.id.transition": {
+  "en": "Pace & transitions",
+  "fr": "Vitesse et transitions",
+  "es": "Velocidad y transiciones"
+ },
+ "tac.id.direct": {
+  "en": "Direct & aerial",
+  "fr": "Jeu direct et aérien",
+  "es": "Juego directo y aéreo"
+ },
+ "tac.id.wide": {
+  "en": "Wide attacking play",
+  "fr": "Jeu offensif par les ailes",
+  "es": "Ataque por las bandas"
+ },
+ "tac.id.balanced": {
+  "en": "Balanced XI, no dominant style",
+  "fr": "XI équilibré, sans style dominant",
+  "es": "XI equilibrado, sin estilo dominante"
+ },
+ "tac.str.width": {
+  "en": "Width on both flanks",
+  "fr": "De la largeur des deux côtés",
+  "es": "Amplitud en las dos bandas"
+ },
+ "tac.str.finishing": {
+  "en": "Ruthless in the box",
+  "fr": "Redoutable dans la surface",
+  "es": "Letal en el área"
+ },
+ "tac.str.creationCentral": {
+  "en": "High central creativity",
+  "fr": "Grande créativité axiale",
+  "es": "Mucha creación por dentro"
+ },
+ "tac.str.creationWide": {
+  "en": "Creativity from wide areas",
+  "fr": "Création venue des côtés",
+  "es": "Creación desde las bandas"
+ },
+ "tac.str.progression": {
+  "en": "Carries the ball forward",
+  "fr": "Fait avancer le ballon",
+  "es": "Hace avanzar el balón"
+ },
+ "tac.str.retention": {
+  "en": "Control of the ball",
+  "fr": "Maîtrise du ballon",
+  "es": "Control del balón"
+ },
+ "tac.str.coverage": {
+  "en": "Solid defensive block",
+  "fr": "Bloc défensif solide",
+  "es": "Bloque defensivo sólido"
+ },
+ "tac.str.ballWinning": {
+  "en": "Wins the midfield battle",
+  "fr": "Gagne la bataille du milieu",
+  "es": "Gana la batalla del medio"
+ },
+ "tac.str.pace": {
+  "en": "Pace in behind",
+  "fr": "Vitesse dans le dos de la défense",
+  "es": "Velocidad a la espalda"
+ },
+ "tac.str.aerial": {
+  "en": "Dominant in the air",
+  "fr": "Dominant dans les airs",
+  "es": "Dominante por alto"
+ },
+ "tac.str.buildUp": {
+  "en": "Clean build-up from the back",
+  "fr": "Relance propre depuis l'arrière",
+  "es": "Salida limpia desde atrás"
+ },
+ "tac.weak.transitions": {
+  "en": "Vulnerable defensive transitions",
+  "fr": "Vulnérable en transition défensive",
+  "es": "Vulnerable en transición defensiva"
+ },
+ "tac.weak.narrowLeft": {
+  "en": "Narrow on the left",
+  "fr": "Trop étroit à gauche",
+  "es": "Estrecho por la izquierda"
+ },
+ "tac.weak.narrowRight": {
+  "en": "Narrow on the right",
+  "fr": "Trop étroit à droite",
+  "es": "Estrecho por la derecha"
+ },
+ "tac.weak.narrow": {
+  "en": "No width without wingers",
+  "fr": "Pas de largeur sans ailiers",
+  "es": "Sin amplitud sin extremos"
+ },
+ "tac.weak.slowLine": {
+  "en": "Slow back line behind a high team",
+  "fr": "Défense lente derrière un bloc haut",
+  "es": "Defensa lenta tras un bloque alto"
+ },
+ "tac.weak.noBallWinner": {
+  "en": "No ball winner in midfield",
+  "fr": "Aucun récupérateur au milieu",
+  "es": "Sin recuperador en el medio"
+ },
+ "tac.weak.sameSpace": {
+  "en": "Strikers in the same space",
+  "fr": "Attaquants dans la même zone",
+  "es": "Delanteros en la misma zona"
+ },
+ "tac.weak.width": {
+  "en": "Short of width",
+  "fr": "Manque de largeur",
+  "es": "Falta de amplitud"
+ },
+ "tac.weak.finishing": {
+  "en": "Short of goals",
+  "fr": "Manque de réalisme",
+  "es": "Falta de gol"
+ },
+ "tac.weak.creation": {
+  "en": "Short of creativity",
+  "fr": "Manque de création",
+  "es": "Falta de creación"
+ },
+ "tac.weak.progression": {
+  "en": "Struggles to move the ball up",
+  "fr": "Peine à faire progresser le ballon",
+  "es": "Le cuesta hacer avanzar el balón"
+ },
+ "tac.weak.retention": {
+  "en": "Loses the ball too easily",
+  "fr": "Perd trop vite le ballon",
+  "es": "Pierde el balón con facilidad"
+ },
+ "tac.weak.coverage": {
+  "en": "Thin defensive cover",
+  "fr": "Couverture défensive fragile",
+  "es": "Cobertura defensiva frágil"
+ },
+ "tac.weak.ballWinning": {
+  "en": "Rarely wins the ball back",
+  "fr": "Récupère peu de ballons",
+  "es": "Recupera pocos balones"
+ },
+ "tac.weak.pace": {
+  "en": "Lacks pace",
+  "fr": "Manque de vitesse",
+  "es": "Falta de velocidad"
+ },
+ "tac.weak.aerial": {
+  "en": "Weak in the air",
+  "fr": "Faible dans les airs",
+  "es": "Débil por alto"
+ },
+ "tac.weak.buildUp": {
+  "en": "Uncertain build-up",
+  "fr": "Relance hésitante",
+  "es": "Salida insegura"
+ },
+ "tac.phase.possession": {
+  "en": "In possession",
+  "fr": "Avec le ballon",
+  "es": "Con balón"
+ },
+ "tac.phase.creation": {
+  "en": "Creation",
+  "fr": "Création",
+  "es": "Creación"
+ },
+ "tac.phase.defending": {
+  "en": "Without the ball",
+  "fr": "Sans le ballon",
+  "es": "Sin balón"
+ },
+ "tac.phase.threat": {
+  "en": "Main threat",
+  "fr": "Menace principale",
+  "es": "Amenaza principal"
+ },
+ "tac.plan.pos.patient": {
+  "en": "Patient build-up",
+  "fr": "Construction patiente",
+  "es": "Construcción paciente"
+ },
+ "tac.plan.pos.vertical": {
+  "en": "Vertical progression",
+  "fr": "Progression verticale",
+  "es": "Progresión vertical"
+ },
+ "tac.plan.pos.direct": {
+  "en": "Direct play",
+  "fr": "Jeu direct",
+  "es": "Juego directo"
+ },
+ "tac.plan.pos.balanced": {
+  "en": "Balanced circulation",
+  "fr": "Circulation équilibrée",
+  "es": "Circulación equilibrada"
+ },
+ "tac.plan.cre.no10": {
+  "en": "Between the lines, through the No. 10",
+  "fr": "Entre les lignes, par le numéro 10",
+  "es": "Entre líneas, a través del 10"
+ },
+ "tac.plan.cre.central": {
+  "en": "Central overloads",
+  "fr": "Surnombre dans l'axe",
+  "es": "Superioridad por dentro"
+ },
+ "tac.plan.cre.wide": {
+  "en": "Wide play & crosses",
+  "fr": "Jeu sur les côtés et centres",
+  "es": "Juego por bandas y centros"
+ },
+ "tac.plan.cre.star": {
+  "en": "One creative star",
+  "fr": "Un seul créateur star",
+  "es": "Una estrella creativa"
+ },
+ "tac.plan.cre.shared": {
+  "en": "Shared across the XI",
+  "fr": "Répartie dans tout le XI",
+  "es": "Repartida en todo el XI"
+ },
+ "tac.plan.def.press": {
+  "en": "High press",
+  "fr": "Pressing haut",
+  "es": "Presión alta"
+ },
+ "tac.plan.def.deep": {
+  "en": "Deep block",
+  "fr": "Bloc bas",
+  "es": "Bloque bajo"
+ },
+ "tac.plan.def.mid": {
+  "en": "Mid-block",
+  "fr": "Bloc médian",
+  "es": "Bloque medio"
+ },
+ "tac.plan.thr.fastLeft": {
+  "en": "{name}: fast transitions down the left",
+  "fr": "{name} : transitions rapides à gauche",
+  "es": "{name}: transiciones rápidas por la izquierda"
+ },
+ "tac.plan.thr.fastRight": {
+  "en": "{name}: fast transitions down the right",
+  "fr": "{name} : transitions rapides à droite",
+  "es": "{name}: transiciones rápidas por la derecha"
+ },
+ "tac.plan.thr.aerial": {
+  "en": "{name}: aerial threat in the box",
+  "fr": "{name} : menace aérienne dans la surface",
+  "es": "{name}: amenaza aérea en el área"
+ },
+ "tac.plan.thr.clinical": {
+  "en": "{name}: clinical central finishing",
+  "fr": "{name} : finition clinique dans l'axe",
+  "es": "{name}: definición letal por el centro"
+ },
+ "tac.plan.thr.left": {
+  "en": "{name}, from the left",
+  "fr": "{name}, côté gauche",
+  "es": "{name}, por la izquierda"
+ },
+ "tac.plan.thr.right": {
+  "en": "{name}, from the right",
+  "fr": "{name}, côté droit",
+  "es": "{name}, por la derecha"
+ },
+ "tac.plan.thr.central": {
+  "en": "{name}, through the middle",
+  "fr": "{name}, dans l'axe",
+  "es": "{name}, por el centro"
+ },
+ "tac.key.creator": {
+  "en": "Key creator",
+  "fr": "Créateur clé",
+  "es": "Creador clave"
+ },
+ "tac.key.balance": {
+  "en": "Balance player",
+  "fr": "Joueur d'équilibre",
+  "es": "Jugador equilibrio"
+ },
+ "tac.key.threat": {
+  "en": "Main threat",
+  "fr": "Menace n°1",
+  "es": "Amenaza principal"
+ },
+ "tac.identity": {
+  "en": "Tactical identity",
+  "fr": "Identité tactique",
+  "es": "Identidad táctica"
+ },
+ "tac.plan": {
+  "en": "Your game plan",
+  "fr": "Ton plan de jeu",
+  "es": "Tu plan de juego"
+ },
+ "tac.planCta": {
+  "en": "Game plan",
+  "fr": "Plan de jeu",
+  "es": "Plan de juego"
+ },
+ "tac.connections": {
+  "en": "Tactical connections",
+  "fr": "Connexions tactiques",
+  "es": "Conexiones tácticas"
+ },
+ "tac.readNote": {
+  "en": "Read from your XI: roles, positions and attributes. Change a player or the formation and it changes.",
+  "fr": "Lu dans ton XI : rôles, postes et attributs. Change un joueur ou le système, il change.",
+  "es": "Leído de tu XI: roles, posiciones y atributos. Cambia un jugador o el sistema y cambia."
+ },
+ "milestone.pointsDropped": {
+  "en": "First points dropped after {n} wins",
+  "fr": "Premiers points perdus après {n} victoires",
+  "es": "Primeros puntos perdidos tras {n} victorias"
+ },
+ "analysis.why": {
+  "en": "Why {n} pts?",
+  "fr": "Pourquoi {n} pts ?",
+  "es": "¿Por qué {n} pts?"
+ },
+ "analysis.worked": {
+  "en": "What worked",
+  "fr": "Ce qui a marché",
+  "es": "Lo que funcionó"
+ },
+ "analysis.cost": {
+  "en": "What cost you points",
+  "fr": "Ce qui t'a coûté des points",
+  "es": "Lo que te costó puntos"
+ },
+ "analysis.turning": {
+  "en": "Turning point",
+  "fr": "Le tournant",
+  "es": "El punto de inflexión"
+ },
+ "analysis.turningLine": {
+  "en": "Round {n} — {instead} instead of {took}",
+  "fr": "Tour {n} — {instead} au lieu de {took}",
+  "es": "Ronda {n} — {instead} en vez de {took}"
+ },
+ "analysis.full": {
+  "en": "Full analysis",
+  "fr": "Analyse complète",
+  "es": "Análisis completo"
+ },
+ "analysis.lessDetail": {
+  "en": "Hide the details",
+  "fr": "Masquer le détail",
+  "es": "Ocultar el detalle"
+ },
+ "analysis.oopShort_one": {
+  "en": "{n} player out of position",
+  "fr": "{n} joueur hors poste",
+  "es": "{n} jugador fuera de posición"
+ },
+ "analysis.oopShort_other": {
+  "en": "{n} players out of position",
+  "fr": "{n} joueurs hors poste",
+  "es": "{n} jugadores fuera de posición"
+ },
+ "dna.arch.galactico": {
+  "en": "The Galáctico collector",
+  "fr": "Le collectionneur de Galácticos",
+  "es": "El coleccionista de galácticos"
+ },
+ "dna.arch.architect": {
+  "en": "The Architect",
+  "fr": "L'Architecte",
+  "es": "El Arquitecto"
+ },
+ "dna.arch.counter": {
+  "en": "The Counter-puncher",
+  "fr": "Le Contre-attaquant",
+  "es": "El Contragolpeador"
+ },
+ "dna.arch.wingPlay": {
+  "en": "The Wing specialist",
+  "fr": "L'Homme des couloirs",
+  "es": "El Especialista de banda"
+ },
+ "dna.arch.warrior": {
+  "en": "The Warrior",
+  "fr": "Le Guerrier",
+  "es": "El Guerrero"
+ },
+ "dna.arch.tactician": {
+  "en": "The Tactician",
+  "fr": "Le Tacticien",
+  "es": "El Táctico"
+ },
+ "dna.arch.pragmatist": {
+  "en": "The Pragmatist",
+  "fr": "Le Pragmatique",
+  "es": "El Pragmático"
+ },
+ "dna.archSub.galactico": {
+  "en": "Takes the biggest name on the board, then makes it work.",
+  "fr": "Prend le plus grand nom du tirage, puis fait avec.",
+  "es": "Elige el nombre más grande y luego lo hace encajar."
+ },
+ "dna.archSub.architect": {
+  "en": "Builds through midfield control and creators.",
+  "fr": "Construit par la maîtrise du milieu et les créateurs.",
+  "es": "Construye desde el control del medio y los creadores."
+ },
+ "dna.archSub.counter": {
+  "en": "Pace and progression: the ball goes forward fast.",
+  "fr": "Vitesse et progression : le ballon avance vite.",
+  "es": "Velocidad y progresión: el balón avanza rápido."
+ },
+ "dna.archSub.wingPlay": {
+  "en": "Width first: wingers and overlapping full-backs.",
+  "fr": "La largeur d'abord : ailiers et latéraux qui débordent.",
+  "es": "Amplitud ante todo: extremos y laterales que suben."
+ },
+ "dna.archSub.warrior": {
+  "en": "Physical, direct teams that win duels.",
+  "fr": "Des équipes physiques et directes qui gagnent les duels.",
+  "es": "Equipos físicos y directos que ganan duelos."
+ },
+ "dna.archSub.tactician": {
+  "en": "The best fit over the biggest name, rarely a player out of position.",
+  "fr": "Le bon profil plutôt que le grand nom, rarement un joueur hors poste.",
+  "es": "El mejor encaje antes que el gran nombre, casi nunca fuera de posición."
+ },
+ "dna.archSub.pragmatist": {
+  "en": "No fixed style: adapts to each draw.",
+  "fr": "Pas de style figé : s'adapte à chaque tirage.",
+  "es": "Sin estilo fijo: se adapta a cada sorteo."
+ },
+ "dna.prefFormation": {
+  "en": "Preferred formation",
+  "fr": "Système préféré",
+  "es": "Sistema preferido"
+ },
+ "dna.prefRole": {
+  "en": "Preferred role",
+  "fr": "Rôle préféré",
+  "es": "Rol preferido"
+ },
+ "dna.favEra": {
+  "en": "Favourite era",
+  "fr": "Époque préférée",
+  "es": "Época favorita"
+ },
+ "dna.behaviour": {
+  "en": "Most often",
+  "fr": "Le plus souvent",
+  "es": "Lo más habitual"
+ },
+ "dna.axis.controlVertical.a": {
+  "en": "Control",
+  "fr": "Maîtrise",
+  "es": "Control"
+ },
+ "dna.axis.controlVertical.b": {
+  "en": "Verticality",
+  "fr": "Verticalité",
+  "es": "Verticalidad"
+ },
+ "dna.axis.possessionTransition.a": {
+  "en": "Possession",
+  "fr": "Possession",
+  "es": "Posesión"
+ },
+ "dna.axis.possessionTransition.b": {
+  "en": "Transition",
+  "fr": "Transition",
+  "es": "Transición"
+ },
+ "dna.axis.technicalPhysical.a": {
+  "en": "Technical",
+  "fr": "Technique",
+  "es": "Técnica"
+ },
+ "dna.axis.technicalPhysical.b": {
+  "en": "Physical",
+  "fr": "Physique",
+  "es": "Físico"
+ },
+ "dna.axis.widthCentral.a": {
+  "en": "Width",
+  "fr": "Largeur",
+  "es": "Amplitud"
+ },
+ "dna.axis.widthCentral.b": {
+  "en": "Central",
+  "fr": "Axe",
+  "es": "Por dentro"
+ },
+ "dna.axis.starFit.a": {
+  "en": "Star power",
+  "fr": "Grands noms",
+  "es": "Estrellas"
+ },
+ "dna.axis.starFit.b": {
+  "en": "Team fit",
+  "fr": "Cohérence",
+  "es": "Encaje"
+ },
+ "dna.axis.riskBalance.a": {
+  "en": "Risk",
+  "fr": "Risque",
+  "es": "Riesgo"
+ },
+ "dna.axis.riskBalance.b": {
+  "en": "Balance",
+  "fr": "Équilibre",
+  "es": "Equilibrio"
+ },
+ "xi.simulate": {
+  "en": "Play the season",
+  "fr": "Jouer la saison",
+  "es": "Jugar la temporada"
+ },
+ "stat.team": {
+  "en": "XI",
+  "fr": "XI",
+  "es": "XI"
+ },
+ "card.ratings": {
+  "en": "XI {t}   ATT {a}   MID {m}   DEF {d}   FIT {f}",
+  "fr": "XI {t}   ATT {a}   MIL {m}   DÉF {d}   FIT {f}",
+  "es": "XI {t}   ATA {a}   MED {m}   DEF {d}   FIT {f}"
+ },
+ "records.bestRatings": {
+  "en": "Best XI ratings",
+  "fr": "Meilleures notes de XI",
+  "es": "Mejores medias de XI"
+ }
+}
