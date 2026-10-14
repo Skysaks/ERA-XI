@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+/* Short phones (iPhone SE, browser chrome open) and phones held flat. */
+@custom-variant short (@media (max-height: 700px));
+@custom-variant flat (@media (orientation: landscape) and (max-height: 520px));
+
+@theme {
+  --color-ink: #080a09;
+  --color-ink-2: #0f1311;
+  --color-ink-3: #161b18;
+  --color-line: #242a26;
+  --color-chalk: #f1efe7;
+  --color-volt: #d9ff43;
+  --color-pitch: #123328;
+  --color-pitch-2: #0e2a21;
+  /* Chalk lines on grass: separators and quiet borders with a football accent (never a fill). */
+  --color-pitch-line: #2a5a47;
+  --color-ash: #777c78;
+  --color-ash-2: #a3a79f;
+  --color-loss: #ff625c;
+
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
+  --font-sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --animate-rise: rise 280ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-fade: fade 220ms ease-out both;
+  --animate-pop: pop 520ms cubic-bezier(0.2, 0.9, 0.25, 1.2) both;
+  --animate-sheet: sheet 260ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-pulse-ring: pulse-ring 700ms ease-out both;
+  --animate-toast: toast 1500ms ease-out both;
+  --animate-toast-long: toast 3400ms ease-out both;
+  --animate-stamp: stamp 1500ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes pop {
+    0% { opacity: 0; transform: scale(0.86); }
+    100% { opacity: 1; transform: none; }
+  }
+  @keyframes sheet {
+    from { transform: translateY(100%); }
+    to { transform: none; }
+  }
+  @keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgb(217 255 67 / 0.7); }
+    100% { box-shadow: 0 0 0 14px rgb(217 255 67 / 0); }
+  }
+  @keyframes stamp {
+    0% { opacity: 0; transform: translateY(4px) scale(0.96); }
+    14% { opacity: 1; transform: none; }
+    76% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @keyframes toast {
+    0% { opacity: 0; transform: translateY(6px); }
+    12% { opacity: 1; transform: none; }
+    78% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: var(--color-ink);
+  color: var(--color-chalk);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-feature-settings: "tnum" 1;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-volt);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
+
+/* The mark's centre circle drawing itself (loading identity). Reduced motion: drawn at once. */
+.era-mark-draw {
+  stroke-dasharray: 100;
+  animation: era-draw 1100ms cubic-bezier(0.6, 0, 0.2, 1) infinite;
+  transform-origin: center;
+  transform: rotate(-90deg);
+}
+@keyframes era-draw {
+  0% { stroke-dashoffset: 100; }
+  55% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -100; }
+}
+
+/* ── accessibility settings (Settings → Experience) ── */
+html[data-contrast="high"] {
+  --color-ash: #a9ada8;
+  --color-ash-2: #d4d6d0;
+  --color-line: #4a524d;
+  --color-loss: #ff8a85;
+}
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation-duration: 1ms !important;
+  animation-delay: 0ms !important;
+  transition-duration: 1ms !important;
+}
+/* Larger secondary text: the small labels grow, the layout stays. */
+html[data-text="large"] .text-\[9\.5px\],
+html[data-text="large"] .text-\[10px\],
+html[data-text="large"] .text-\[10\.5px\],
+html[data-text="large"] .text-\[11px\] { font-size: 12.5px; }
+html[data-text="large"] .text-\[11\.5px\],
+html[data-text="large"] .text-\[12px\],
+html[data-text="large"] .text-\[12\.5px\] { font-size: 14px; }
+html[data-text="large"] .text-\[13px\],
+html[data-text="large"] .text-\[13\.5px\],
+html[data-text="large"] .text-\[14px\] { font-size: 15.5px; }
+html[data-text="large"] .text-\[15px\] { font-size: 17px; }
+:focus-visible {
+  outline: 2px solid var(--color-volt);
+  outline-offset: 2px;
+}
+
+/* Reduced motion: transient notes (pick impacts, insights) stay visible instead of fading out
+   in 1 ms — they are replaced by the next pick anyway. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-toast, .animate-toast-long { animation: none !important; }
+}
+html[data-motion="reduced"] .animate-toast,
+html[data-motion="reduced"] .animate-toast-long { animation: none !important; }
