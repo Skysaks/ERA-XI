@@ -17,6 +17,7 @@ next-env.d.ts
 *.key
 
 # test and QA output
+/tmp
 coverage
 test-results
 playwright-report

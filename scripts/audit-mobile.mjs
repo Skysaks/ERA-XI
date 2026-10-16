@@ -8,7 +8,7 @@ const BASE = process.env.BASE ?? "http://localhost:3001";
 const OUT = process.env.OUT ?? "/tmp/shots";
 const LANG = process.env.LANG_CODE ?? "en-US";
 const VIEWPORTS = (process.env.VIEWPORTS ?? "320x568,360x800,375x812,390x844,393x852,430x932,844x390").split(",").map((v) => v.split("x").map(Number));
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const browser = await chromium.launch({ executablePath: process.env.CHROME });
 const report = [];
 
 async function audit(page, screen, vp, cta) {

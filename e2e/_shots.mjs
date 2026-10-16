@@ -1,6 +1,6 @@
 import { chromium } from "playwright-core";
 const OUT = process.env.OUT; const L = process.env.L ?? "fr-FR"; const W = Number(process.env.W ?? 390), H = Number(process.env.H ?? 844);
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: process.env.CHROME });
 const ctx = await b.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, locale: L });
 const page = await ctx.newPage();
 const errs = []; page.on("pageerror", (e) => errs.push(e.message));

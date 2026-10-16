@@ -10,7 +10,7 @@ import { mkdirSync } from "node:fs";
 const BASE = process.env.BASE ?? "http://localhost:3001";
 const OUT = process.env.OUT ?? "/tmp/e2e";
 mkdirSync(OUT, { recursive: true });
-const browser = await chromium.launch({ executablePath: process.env.CHROME ?? "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const browser = await chromium.launch({ executablePath: process.env.CHROME });
 const failures = [];
 let at = "";
 const mark = (label) => (at = label);

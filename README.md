@@ -30,7 +30,9 @@ npm run validate:data      # dataset validation + quality report
 npm run build:standalone   # dist/era-xi.html — the whole game in one self-contained file
 ```
 
-Requires Node.js 20.9 or later. Optional: `NEXT_PUBLIC_SITE_URL` sets the absolute base for OpenGraph URLs.
+Requires Node.js 20.9 or later. Optional: `NEXT_PUBLIC_SITE_URL` sets the absolute base for OpenGraph URLs (see `.env.example`).
+
+Browser scripts (`e2e/`, `scripts/playtest-*.mjs`, `scripts/audit-mobile.mjs`, `scripts/perf.mjs`) drive Chromium through `playwright-core`: either run `npx playwright-core install chromium` once, or point `CHROME=/path/to/chrome` at an existing build.
 
 ---
 
