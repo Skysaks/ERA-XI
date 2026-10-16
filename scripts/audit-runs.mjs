@@ -3,7 +3,7 @@
 import { chromium } from "playwright-core";
 const BASE = process.env.BASE ?? "http://localhost:3000";
 const OUT = process.env.OUT;
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const browser = await chromium.launch({ executablePath: process.env.CHROME });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
 const page = await ctx.newPage();
 const errors = [];

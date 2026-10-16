@@ -25,7 +25,7 @@ function fakeRoom() {
     peers: () => snap, onPeers: (h) => { handlers.add(h); queueMicrotask(() => h({ peers: snap })); return () => handlers.delete(h); } };
   return window.__room;
 }`;
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const browser = await chromium.launch({ executablePath: process.env.CHROME });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
 await ctx.addInitScript(FAKE);
 const errors = [];

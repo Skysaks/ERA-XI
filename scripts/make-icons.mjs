@@ -11,7 +11,7 @@ html,body{margin:0;background:transparent}
 .c{position:absolute;left:50%;top:50%;width:${size * 0.28}px;height:${size * 0.28}px;margin:-${size * 0.14}px;border:${size * 0.035}px solid #123328;border-radius:50%;box-sizing:border-box}
 .t{position:absolute;inset:0;display:grid;place-items:center;font:800 ${size * 0.5}px/1 B;color:#D9FF43;letter-spacing:.01em;padding-top:${size * 0.03}px}
 </style></head><body><div class="i"><div class="f"></div><div class="c"></div><div class="t">XI</div></div></body></html>`;
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const browser = await chromium.launch({ executablePath: process.env.CHROME });
 const page = await browser.newPage({ deviceScaleFactor: 1 });
 for (const [name, size, pad, radius] of [
   ["icon-192.png", 192, 22, 0],

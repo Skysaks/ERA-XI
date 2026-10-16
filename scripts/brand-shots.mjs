@@ -6,7 +6,7 @@ const OUT = process.env.OUT ?? "/tmp/shots";
 const L = process.env.L ?? "en-GB";
 const W = Number(process.env.W ?? 390), H = Number(process.env.H ?? 844);
 const TAG = process.env.TAG ?? "shot";
-const b = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const b = await chromium.launch({ executablePath: process.env.CHROME });
 const ctx = await b.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, locale: L });
 const page = await ctx.newPage();
 const errs = [];

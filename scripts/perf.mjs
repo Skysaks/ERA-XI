@@ -10,7 +10,7 @@ const critical = new Set(
   existsSync(statsFile) ? JSON.parse(readFileSync(statsFile, "utf8")).find((r) => r.route === "/")?.firstLoadChunkPaths.map((p) => p.split("/").pop()) ?? [] : [],
 );
 const BASE = process.env.BASE ?? "http://localhost:3001";
-const browser = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium-1194/chrome-linux/chrome" });
+const browser = await chromium.launch({ executablePath: process.env.CHROME });
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, locale: "en-US" });
 const page = await ctx.newPage();
 const cdp = await ctx.newCDPSession(page);
