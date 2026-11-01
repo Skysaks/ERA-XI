@@ -35,3 +35,11 @@ Thumbs.db
 
 # hosting
 .vercel
+
+# Root Markdown files are tracked explicitly; anything else generated there by tooling stays local
+/*.md
+!/README.md
+!/CONTRIBUTING.md
+!/SECURITY.md
+!/CALIBRATION.md
+!/MULTIPLAYER_QA.md

@@ -112,7 +112,7 @@ scripts/        calibration, Playwright playtests, standalone build
 
 10. **No network during play.** Data is bundled; fonts are self-hosted (Barlow Condensed + Inter, latin + latin-ext). The `/c/[token]` page is server-rendered only for OpenGraph metadata; gameplay is entirely client-side.
 
-11. **Analytics** are typed events (`landing_view` … `share_clicked`, the full list from the brief) behind `setAnalyticsSink()`. Default sink buffers in memory and logs in dev. Plug any provider without touching components.
+11. **Analytics** are typed events (`landing_view` … `share_clicked`, full list in `src/utils/analytics.ts`) behind `setAnalyticsSink()`. Default sink buffers in memory and logs in dev. Plug any provider without touching components.
 
 12. **Security.** The room API never trusts a request: bodies are size-capped (4 KB) and schema-validated (zod, strict), scores are recomputed server-side from the picks, an opponent's picks stay hidden until both have locked, seat tokens travel in a header, and every endpoint is rate-limited per address. Production responses carry a strict Content-Security-Policy (same-origin only), HSTS, `nosniff`, `frame-ancestors 'none'` and a restrictive Permissions-Policy. No third-party scripts, fonts or trackers are loaded.
 

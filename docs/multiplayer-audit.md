@@ -34,7 +34,7 @@ The standalone artifact build uses `PresenceTransport` (commit–reveal). Practi
 | 12 | Duel result gave the score only | no read of why | ATT / MID / DEF / FIT side by side under the /114 score; different picks per round with the model's measured impact |
 | 13 | No way to replay the draw | — | "This draw, solo" on the result (practice); REMATCH keeps a fresh seed |
 
-The brief's READY and NEXT_ROUND states are transient in lockstep (both seated → round 1 opens at once;
+The READY and NEXT_ROUND states of the original state model are transient in lockstep (both seated → round 1 opens at once;
 reveal → next round) and are folded into ROUND_ACTIVE and REVEAL.
 
 ## 3. Edge cases: where each is covered
