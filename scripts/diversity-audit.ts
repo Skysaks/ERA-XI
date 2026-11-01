@@ -6,7 +6,7 @@
  * Reports, per identity (all versions of a player together): share of drafts in which he is
  * OFFERED at least once, share of drafts in which a competent drafter PICKS him; the same for
  * eras and roles; concentration (how much of all offers the top 1% / 5% of players take), and
- * the "usual suspects" check from the brief (Messi, Cristiano, Zidane, Ronaldinho, Henry).
+ * a "usual suspects" check (Messi, Cristiano, Zidane, Ronaldinho, Henry).
  * Modes: classic, eralock (random period), nations, cult, champions.
  */
 import { autoPlace, createDraft, currentOffer, formationOf, getFormation, isDraftComplete, lineupPlayers, pickOption, rateLineup } from "@/engine";

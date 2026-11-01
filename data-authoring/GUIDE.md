@@ -1,11 +1,11 @@
 # ERA XI — dataset authoring guide (V1.3 expansion)
 
-You add historically accurate squads ("eras") to a football drafting game. Each era = one team over a
-span of seasons, 13–18 players who were genuinely important in that squad at that time.
+How historical squads ("eras") are added to the dataset. Each era is one team over a span of seasons:
+13–18 players who were genuinely important in that squad at that time.
 
 ## Where to write
-Only your assigned file, e.g. `src/data/eras/more-1990s.ts` (already exists with `export const ERAS: RawEra[] = [];`).
-Never edit any other file (exception stated in your brief). Team ids MUST come from `src/data/teams.ts`.
+One batch file per expansion, e.g. `src/data/eras/more-1990s.ts` (starting from `export const ERAS: RawEra[] = [];`).
+A batch touches only its own file. Team ids must come from `src/data/teams.ts`.
 
 ## Format
 ```ts
@@ -57,7 +57,7 @@ Never edit any other file (exception stated in your brief). Team ids MUST come f
 - Do not duplicate an existing (team, label). Overlapping spans with an existing era of the same club are
   allowed only if the squad is meaningfully different (prefer non-overlapping).
 
-## Validate (run until it prints OK)
+## Validate (a batch is ready when this prints OK)
 ```
 node scripts/run-ts.mjs scripts/validate-data.ts more-1990s
 ```
