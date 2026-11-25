@@ -2,6 +2,10 @@
 
 **Every era. One XI. Prove yours.**
 
+**Play**: [skysaks.github.io/ERA-XI](https://skysaks.github.io/ERA-XI/) — the single-file standalone build, offline-capable (solo modes; Live Duel and Party rooms need the hosted server).
+
+![ERA XI on desktop and phone](docs/captures/carte-sociale.png)
+
 > © 2026 Florian Iglesias — All rights reserved. This repository is public for portfolio purposes only.
 > No licence is granted to copy, modify, distribute or use this code or its dataset. See [LICENSE](LICENSE).
 
